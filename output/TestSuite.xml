@@ -1,0 +1,15 @@
+<WebTestSuite>
+  <TestSuiteName>Test</TestSuiteName>
+  <Configuration>
+    <URL>http://linzhu-debug:8080</URL>
+    <MSTRBaseUrl>/MicroStrategy/servlet/mstrWeb</MSTRBaseUrl>
+	<ProjectName>EMMA_tutorial</ProjectName>
+    <Package>mstrweb</Package>
+    <userExtension>Z:\Yati\EngineCode\WebAutomation\javascript\user-extensions.js</userExtension>
+	<StopTestCaseWhenFail>false</StopTestCaseWhenFail>
+  </Configuration>
+ 	<WebTest>  
+      <StandardFileName>baselines/test.html</StandardFileName>   
+    </WebTest> 
+
+</WebTestSuite>
